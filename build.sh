@@ -23,7 +23,7 @@ function PrintUsage
     echo "  $0 {release|debug|ci|clean}"
     echo "  - realse cmake .."
     echo "  - debug  cmake -DCMAKE_BUILD_TYPE=Debug .."
-    echo "  - ci    cmake -DCMAKE_BUILD_TYPE=Debug -DENABLE_GCOV=1 .."
+    echo "  - ci     cmake -DCMAKE_BUILD_TYPE=Debug -DENABLE_GCOV=1 .."
     echo "  - clean  clean .."
 }
 
