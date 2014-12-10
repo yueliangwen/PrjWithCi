@@ -8,7 +8,7 @@
 
 `ci` 项目产生的CI服务器需要的数据
 
-`include` 存放接口文件（se-interface）或binary库的头文件
+`include` 存放接口文件或binary库的头文件
 
 `lib` binary库
 
