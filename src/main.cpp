@@ -26,7 +26,7 @@ int main(int argc, char* argv[])
 	std::string vkserverport;
 	po::options_description desc_conf("conf options");
 	desc_conf.add_options()
-		("port", po::value<std::string>(&vkserverport)->default_value("2014"), "server port")
+		("net.port", po::value<std::string>(&vkserverport)->default_value("2014"), "server port")
 	;
 	std::vector<fs::path> config_files;
 	config_files.push_back("/etc/vkMain.conf");
